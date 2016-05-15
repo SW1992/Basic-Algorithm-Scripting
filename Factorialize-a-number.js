@@ -4,11 +4,11 @@ function factorialize(num) {
 if (num === 0) {
   return 1;
 }
-//reject negative intergers
+// reject negative intergers
 if (num < 0) {
   return console.log("enter a positive integer");
 }
-//recursive function, uses rule n! = n × (n−1)!
+// recursive function, uses rule n! = n × (n−1)!
   return num * factorialize(num - 1);
 }
 
