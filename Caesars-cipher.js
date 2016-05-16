@@ -72,8 +72,8 @@ function rot13(str) { // LBH QVQ VG!
       decodedString += decodedLetter;
       // decoded letter here holds (A-Z) characters
       // alpha[originalNum + 13] (decodes original letter)
-	  /* there's 26 letters in latin alphabet so the same algorithm that was 
-	     applied to ROT 13 encode the string, can also be used to decode the string. */
+      /* there's 26 letters in latin alphabet so the same algorithm that was 
+	 applied to ROT 13 encode the string, can also be used to decode the string. */
     }
     else {
       decodedLetter = String.fromCharCode(uni[x]);
