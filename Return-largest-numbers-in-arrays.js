@@ -1,6 +1,5 @@
 // Return Largest Numbers in Arrays Bonfire Solution
 function largestOfFour(arr) {
-  // You can do this!
   var newArr = [];
   var largestNum1 = 0;
   var largestNum2 = 0;
