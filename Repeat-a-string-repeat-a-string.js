@@ -1,4 +1,4 @@
-\\ Repeat a string repeat a string Bonfire Solution
+// Repeat a string repeat a string Bonfire Solution
 function repeatStringNumTimes(str, num) {
   if (num < 0) {
       return "";
