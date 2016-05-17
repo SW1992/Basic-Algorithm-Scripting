@@ -1,4 +1,4 @@
-\\ Caesars Cipher Bonfire Solution
+// Caesars Cipher Bonfire Solution
 function rot13(str) { // LBH QVQ VG!
   var alpha = {
     65:  "A",
