@@ -1,5 +1,5 @@
 // Caesars Cipher Bonfire Solution
-function rot13(str) { // LBH QVQ VG!
+function rot13(str) { 
   var alpha = {
     65:  "A",
     66:  "B",
