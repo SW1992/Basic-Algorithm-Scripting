@@ -6,7 +6,7 @@ function destroyer(arr) {
   /* You can refer to a function's arguments within the 
   function, by using the arguments object. */
   function seek (value) {
-  return value !== arg1 && value !== arg2 && value !== arg3;
+    return value !== arg1 && value !== arg2 && value !== arg3;
     }
   var destroy = arr.filter(seek);
   return destroy;
