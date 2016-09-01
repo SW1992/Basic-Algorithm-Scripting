@@ -7,10 +7,11 @@ function where(arr, num) {
   arr.sort(compare);
    for (var i = 0; i < arr.length; i++ ) {
     if (arr[i] >= num ) {
-        lowestIndex = i;
-        break;
-    } else if (arr[i] < num) {
-        lowestIndex = i + 1;   
+      lowestIndex = i;
+      break;
+    } 
+    else if (arr[i] < num) {
+      lowestIndex = i + 1;   
     }
   }
   return lowestIndex;
