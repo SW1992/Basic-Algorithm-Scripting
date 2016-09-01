@@ -12,13 +12,14 @@ function mutation(arr) {
         letterCheck = true;
         /* searches first string for matches against the letters 
            that make up the second string, returns boolean of true or false. */
-   } else {
+      } 
+      else {
         letterCheck = false;
         break;
         /* if a paticular character isn't found the first string, 
            the statement stops executing & lettercheck returns false */   
-   }
- }
+      }
+  }
   return letterCheck; 
 }
 
