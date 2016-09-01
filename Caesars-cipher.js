@@ -80,11 +80,10 @@ function rot13(str) {
       decodedString += decodedLetter;
       // decoded letter here holds non (A-Z) characters
       // returned string chars are appended to decoded string
-      
     }
   }
   return decodedString;
 }
 
-// Change the inputs below to test
+
 rot13("SERR PBQR PNZC");
