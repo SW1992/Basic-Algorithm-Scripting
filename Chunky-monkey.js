@@ -7,7 +7,6 @@ function chunk(arr, size) {
   group1 = arr.slice(0,size);
   newArr.push(group1);
   // does this first, in all cases
-  
   if (arr.length === 6 && size === 2) {
 	group2 = arr.slice(size,- 2);
 	newArr.push(group2);
