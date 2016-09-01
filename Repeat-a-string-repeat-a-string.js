@@ -2,7 +2,8 @@
 function repeatStringNumTimes(str, num) {
   if (num < 0) {
       return "";
-  } else {
+  } 
+  else {
       var repeats = str.repeat(num);
       return repeats;
   }  
