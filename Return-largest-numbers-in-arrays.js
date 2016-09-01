@@ -12,7 +12,6 @@ function largestOfFour(arr) {
      if (arr[0][x] > largestNum1) {
        largestNum1 = arr[0][x];
        // arr[number][x] accesses sub elements in sub-arrays
-       
       }
      if (arr[1][x] > largestNum2) {
        largestNum2 = arr[1][x]; 
@@ -26,12 +25,12 @@ function largestOfFour(arr) {
        largestNum4 = arr[3][x];
      }
    }
-     newArr.push(largestNum1);
-     newArr.push(largestNum2);
-     newArr.push(largestNum3); 
-     newArr.push(largestNum4);
-     return newArr;
-     // append largest number from each array to new array & return it
+   newArr.push(largestNum1);
+   newArr.push(largestNum2);
+   newArr.push(largestNum3); 
+   newArr.push(largestNum4);
+   return newArr;
+   // append largest number from each array to new array & return it
    }
 }
 
